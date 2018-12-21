@@ -10,6 +10,7 @@ lombok
 
 ## To start
 To start this application, clone this repo.
+
 Build and run the SpringBootWebApplication class.
 
 ## Screenshots
