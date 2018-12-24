@@ -2,7 +2,7 @@
 This is a simple Spring boot web application. It can generate UUID.
 
 ## What you'll need
-Java 1.8
+Java 11
 
 Maven 3.2+
 
