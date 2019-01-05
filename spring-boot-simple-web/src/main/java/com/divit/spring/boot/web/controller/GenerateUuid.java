@@ -18,7 +18,7 @@ public class GenerateUuid {
 	@GetMapping(value = "/generate")
 	public String generateUuid(Model model) {
 		model.addAttribute("uuid", UUID.randomUUID().toString());
-		return "generateUuid.jsp";
+		return "generateUuid";
 	}
 
 	@RequestMapping(value = "/generateUuid", method = RequestMethod.GET)
