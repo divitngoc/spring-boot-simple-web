@@ -8,10 +8,26 @@ Maven 3.2+
 
 lombok
 
+Docker CE
+
 ## To start
 To start this application, clone this repo.
 
-Build and run the SpringBootWebApplication class.
+Build:
+
+```
+mvn install
+```
+
+And then run the SpringBootWebApplication class.
+
+## Build Docker image
+
+build image (root directory of project):
+
+```
+docker build -f Dockerfile -t docker-spring-boot-web .
+```
 
 ## Screenshots
 
@@ -24,4 +40,4 @@ Build and run the SpringBootWebApplication class.
 
 
 ## About
-I started this project for fun which showcase a bit of SpringBoot, JavaScript, Ajax, JSP/HTML, JSTL(EL).
+I started this project for fun which showcase a bit of SpringBoot, JavaScript, Ajax, JSP/HTML, JSTL(EL) and Docker.
